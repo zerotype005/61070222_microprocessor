@@ -1,10 +1,12 @@
 # 61070222_microprocessor
 
-ตรวจจับเมาส์และไฟ led ติด
+# การใช้การตรวจจับเมาส์และทำให้ไฟ LED ติด
 
-ขณะนี้กำลังเจอปัญหาไม่สามารถใช้ tensorflow เปิด display object detection
+ขั้นตอนการใช้งาน
+1. พิมพ์ cd tflite1 เพื่อเข้าไปยังโฟลเดอร์ของ tflite1
+2. ทำการรันการทำงานของ Virtual Environment ด้วยการพิมพ์ source tflite1-env/bin/activate
+3. ทำการรันโปรแกรมด้วย python3 TFLite_detection_webcam.py --modeldir=Sample_TFLite_model
 
-เว็บไซต์อ้างอิงที่กำลังศึกษา
-https://medium.com/@thossaponkaewrakmuk/%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87-tensorflow-1-13-%E0%B9%81%E0%B8%A5%E0%B8%B0-opencv-4-api-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%88%E0%B8%B1%E0%B8%9A%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%96%E0%B8%B8%E0%B8%9A%E0%B8%99-raspberry-pi-%E0%B8%95%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88-1-bb544f5e7fa8
+เว็บไซต์อ้างอิงที่ศึกษา
+https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi/blob/master/Raspberry_Pi_Guide.md
 
-ยังไม่สามารถเรียกใช้ Object detection.py ได้
