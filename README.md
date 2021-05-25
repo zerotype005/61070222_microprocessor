@@ -26,8 +26,9 @@
     
    ทำการรัน python3 TFLite_detection_webcam.py --modeldir=Sample_TFLite_model
    
-   จะพบ error -> ImportError: libImath-2_2.so.12: cannot open shared object file: No such file or directory
-   Install the following packages with apt-get:
-      - libilmbase-dev
-      - libopenexr-dev
-      - libgstreamer1.0-dev
+จะพบ error -> ImportError: libImath-2_2.so.12: cannot open shared object file: No such file or directory
+
+Install the following packages with apt-get:
+  - libilmbase-dev
+  - libopenexr-dev
+  - libgstreamer1.0-dev
